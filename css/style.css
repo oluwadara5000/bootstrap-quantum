@@ -1,0 +1,307 @@
+@media (max-width: 575px) {
+  .nav-bar-div {
+    background-color: black;
+    display: none;
+  }
+
+  .main-heading {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .area-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .little-about {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .little-about-picture {
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .little-about-image {
+    margin: 0 auto;
+    width: inherit;
+    border-radius: 120px;
+  }
+
+  .little-about-text {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-top: 1px solid black;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .text-heading {
+    letter-spacing: 5px;
+    font-size: 1rem;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .card-container-individual {
+  }
+
+  .blog-body {
+    padding: 1rem;
+    border-right: 0;
+  }
+
+  .blog-heading {
+    height: 3%;
+  }
+
+  .blog-heading-text {
+    font-size: 2rem;
+  }
+
+  .blog-content {
+    flex-direction: column;
+    width: 100%;
+    height: 95%;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .blog-writeup {
+    padding: 1rem;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    height: 25%;
+    text-align: right;
+  }
+
+  .blog-content-writeup {
+    font-size: 12px;
+  }
+
+  .blog-content-images {
+    width: inherit;
+    height: 73%;
+    padding: 1rem;
+    gap: 15px;
+  }
+
+  .blog-images {
+    height: 50%;
+  }
+
+  .executive-div {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .executive-div-text {
+    padding: 1rem;
+    margin: 0;
+    height: 3%;
+  }
+
+  .executive-div-card-container {
+    padding: 1rem;
+    flex-direction: column;
+    width: inherit;
+    margin: 0;
+    height: 95%;
+    gap: 1.5rem;
+    box-shadow: 0 0 0;
+    justify-content: space-between;
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .executive-div-card-one,
+  .executive-div-card-two,
+  .executive-div-card-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 0;
+    border-right: 0;
+    height: 33%;
+    width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+  }
+
+  .executive-div-card-image {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    height: 88%;
+  }
+
+  .title {
+    height: 11%;
+  }
+
+  .executive {
+    width: inherit;
+    height: inherit;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .post {
+    font-size: 0.75rem;
+  }
+
+  .discovery {
+    padding: 1rem;
+    width: inherit;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .discovery-heading-div {
+    font-size: 1rem;
+  }
+
+  .discovery-content {
+    flex-direction: column;
+    padding: 1rem;
+    height: 95%;
+    justify-content: space-between;
+  }
+
+  .discovery-picture {
+    height: 42%;
+  }
+
+  .discovery-image {
+    height: 100%;
+  }
+
+  .discovery-content-writeup-heading-div {
+    letter-spacing: 0;
+    font-size: 1rem;
+  }
+
+  .discovery-content-writeup {
+    font-size: 2rem;
+    width: inherit;
+    padding: 0.5rem;
+    height: 55%;
+  }
+
+  .contact {
+    padding: 1rem;
+    background-color: rgb(236, 240, 229);
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .email-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+  }
+
+  .email-container-heading {
+    align-items: center;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .email-request {
+    font-size: 1.5rem;
+  }
+
+  .email-form {
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    padding: 10px;
+  }
+
+  .subscribe {
+    letter-spacing: 5px;
+    font-family: Mukta;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 12px;
+    padding: 0.5rem;
+    height: 50%;
+  }
+
+  .subscribe-submit-button {
+    font-family: Katibeh;
+    font-size: 1.5rem;
+    width: 10rem;
+    margin: auto;
+    border-radius: 12px;
+    background-color: greenyellow;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 0;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  .contact-container-individual {
+    width: inherit;
+    height: 25%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-container-individual-writeup {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding: 1rem;
+    justify-content: space-between;
+  }
+
+  .footer-icon {
+    display: flex;
+    width: inherit;
+  }
+  .main-footer-heading {
+    font-size: 1.5rem;
+  }
+
+  .fa {
+    margin: 10px 10px;
+  }
+}
